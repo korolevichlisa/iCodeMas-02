@@ -1,0 +1,112 @@
+/* Add CSS here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: bisque;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.container {
+  background-color: #fff;
+  max-width: 60%;
+  height: 60vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+
+  /* margin: auto; */
+  border-radius: 30px;
+
+}
+
+.slider{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.item{
+  height: 180px;
+  width: 140px;
+  position: relative;
+  /* background-color: #fbf5e6; */
+
+}
+
+.item:hover{
+  border: 1px solid black;
+}
+
+.item img{
+  /* padding: auto; */
+  height: 150px;
+  padding: 0.5em;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.choisen-item{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imgA{
+}
+
+.imgA img{
+  height: 170px;
+  padding: .7em;
+
+  /* background-color: #fbf5e6; */
+
+}
+.total-info{
+  width: 30em;
+
+}
+
+.total-info *:not(:last-child){
+  padding-bottom: 20px;
+}
+.price{
+  font-weight: 700;
+}
+.star {
+  color: goldenrod;
+  font-size: 20px;
+}
+
+.btnAdd{
+  background-color: #bd781d;
+  color: aliceblue;
+  font-size: 15px;
+  padding: 0.8em;
+  border-radius: 25px;
+  border: none;
+}
+
+.btnAdd:hover{
+  background-color: #d38d31;
+  padding: 1.1em;
+}
